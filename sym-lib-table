@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OpenAmigaJoyMouseSwitcher-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenAmigaJoyMouseSwitcher-rescue.lib)(options "")(descr ""))
+)

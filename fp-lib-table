@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name OpenAmigaJoyMouseSwitcher)(type KiCad)(uri ${KIPRJMOD}/OpenAmigaJoyMouseSwitcher.pretty)(options "")(descr ""))
+)

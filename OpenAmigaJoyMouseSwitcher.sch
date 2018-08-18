@@ -1,43 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:OpenAmigaJoyMouseSwitcher-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmigaJoyMouseSwitcher"
-Date "2018-08-10"
+Date "2018-08-18"
 Rev "1git"
 Comp "SukkoPera"
 Comment1 ""
@@ -46,117 +15,117 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74LS157 U3
+L OpenAmigaJoyMouseSwitcher-rescue:74LS157 U2
 U 1 1 5B6CBA2F
 P 5795 4090
-F 0 "U3" H 5845 4240 50  0000 C CNN
+F 0 "U2" H 5845 4240 50  0000 C CNN
 F 1 "74LS157" H 5845 3940 50  0000 C CNN
-F 2 "" H 5795 4090 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 5795 4090 50  0001 C CNN
 F 3 "" H 5795 4090 50  0001 C CNN
 	1    5795 4090
 	1    0    0    -1  
 $EndComp
 $Comp
-L NE555 U2
+L OpenAmigaJoyMouseSwitcher-rescue:NE555 U3
 U 1 1 5B6CBAF0
 P 5750 5710
-F 0 "U2" H 5350 6060 50  0000 L CNN
+F 0 "U3" H 5350 6060 50  0000 L CNN
 F 1 "NE555" H 5850 6060 50  0000 L CNN
-F 2 "" H 5750 5710 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 5750 5710 50  0001 C CNN
 F 3 "" H 5750 5710 50  0001 C CNN
 	1    5750 5710
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74LS08 U1
+L OpenAmigaJoyMouseSwitcher-rescue:74LS08 U1
 U 1 1 5B6CBB8B
 P 5740 2115
 F 0 "U1" H 5740 2165 50  0000 C CNN
 F 1 "74LS08" H 5740 2065 50  0000 C CNN
-F 2 "" H 5740 2115 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5740 2115 50  0001 C CNN
 F 3 "" H 5740 2115 50  0001 C CNN
 	1    5740 2115
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS08 U1
+L OpenAmigaJoyMouseSwitcher-rescue:74LS08 U1
 U 2 1 5B6CBC90
 P 5740 2615
 F 0 "U1" H 5740 2665 50  0000 C CNN
 F 1 "74LS08" H 5740 2565 50  0000 C CNN
-F 2 "" H 5740 2615 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5740 2615 50  0001 C CNN
 F 3 "" H 5740 2615 50  0001 C CNN
 	2    5740 2615
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS08 U1
+L OpenAmigaJoyMouseSwitcher-rescue:74LS08 U1
 U 3 1 5B6CBD3B
 P 7405 5445
 F 0 "U1" H 7405 5495 50  0000 C CNN
 F 1 "74LS08" H 7405 5395 50  0000 C CNN
-F 2 "" H 7405 5445 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7405 5445 50  0001 C CNN
 F 3 "" H 7405 5445 50  0001 C CNN
 	3    7405 5445
 	-1   0    0    -1  
 $EndComp
 $Comp
-L 74LS08 U1
+L OpenAmigaJoyMouseSwitcher-rescue:74LS08 U1
 U 4 1 5B6CBDE8
 P 7405 5975
 F 0 "U1" H 7405 6025 50  0000 C CNN
 F 1 "74LS08" H 7405 5925 50  0000 C CNN
-F 2 "" H 7405 5975 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7405 5975 50  0001 C CNN
 F 3 "" H 7405 5975 50  0001 C CNN
 	4    7405 5975
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DB9_Male J1
+L OpenAmigaJoyMouseSwitcher-rescue:DB9_Male CNY1
 U 1 1 5B6CBE81
-P 3345 3235
-F 0 "J1" H 3345 3785 50  0000 C CNN
-F 1 "DB9_Mouse" H 3345 2660 50  0000 C CNN
-F 2 "" H 3345 3235 50  0001 C CNN
-F 3 "" H 3345 3235 50  0001 C CNN
-	1    3345 3235
+P 1855 3235
+F 0 "CNY1" H 1855 3785 50  0000 C CNN
+F 1 "DB9_IN_1" H 1855 2660 50  0000 C CNN
+F 2 "w_conn_d-sub:DB_9M" H 1855 3235 50  0001 C CNN
+F 3 "" H 1855 3235 50  0001 C CNN
+	1    1855 3235
 	-1   0    0    1   
 $EndComp
 $Comp
-L DB9_Male J2
+L OpenAmigaJoyMouseSwitcher-rescue:DB9_Male CNY2
 U 1 1 5B6CBF34
-P 3350 4795
-F 0 "J2" H 3350 5345 50  0000 C CNN
-F 1 "DB9_Joystick" H 3350 4220 50  0000 C CNN
-F 2 "" H 3350 4795 50  0001 C CNN
-F 3 "" H 3350 4795 50  0001 C CNN
-	1    3350 4795
+P 1855 4795
+F 0 "CNY2" H 1855 5345 50  0000 C CNN
+F 1 "DB9_IN_2" H 1855 4220 50  0000 C CNN
+F 2 "w_conn_d-sub:DB_9M" H 1855 4795 50  0001 C CNN
+F 3 "" H 1855 4795 50  0001 C CNN
+	1    1855 4795
 	-1   0    0    1   
 $EndComp
 $Comp
-L DB9_Female J3
+L OpenAmigaJoyMouseSwitcher-rescue:DB9_Female CNY3
 U 1 1 5B6CC037
-P 7660 3990
-F 0 "J3" H 7660 4540 50  0000 C CNN
-F 1 "DB9_Out" H 7660 3415 50  0000 C CNN
-F 2 "" H 7660 3990 50  0001 C CNN
-F 3 "" H 7660 3990 50  0001 C CNN
-	1    7660 3990
+P 8110 3990
+F 0 "CNY3" H 8110 4540 50  0000 C CNN
+F 1 "DB9_OUT" H 8110 3415 50  0000 C CNN
+F 2 "w_conn_d-sub:DB_9F" H 8110 3990 50  0001 C CNN
+F 3 "" H 8110 3990 50  0001 C CNN
+	1    8110 3990
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR01
+L power:VCC #PWR01
 U 1 1 5B6CCAB6
-P 3865 2490
-F 0 "#PWR01" H 3865 2340 50  0001 C CNN
-F 1 "VCC" H 3865 2640 50  0000 C CNN
-F 2 "" H 3865 2490 50  0001 C CNN
-F 3 "" H 3865 2490 50  0001 C CNN
-	1    3865 2490
+P 3865 1390
+F 0 "#PWR01" H 3865 1240 50  0001 C CNN
+F 1 "VCC" H 3865 1540 50  0000 C CNN
+F 2 "" H 3865 1390 50  0001 C CNN
+F 3 "" H 3865 1390 50  0001 C CNN
+	1    3865 1390
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5B6CCBD4
 P 3795 5625
 F 0 "#PWR02" H 3795 5375 50  0001 C CNN
@@ -167,7 +136,7 @@ F 3 "" H 3795 5625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5B6CD12B
 P 4935 4840
 F 0 "#PWR03" H 4935 4590 50  0001 C CNN
@@ -178,18 +147,18 @@ F 3 "" H 4935 4840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L Device:C C1
 U 1 1 5B6CD91C
 P 1100 7030
 F 0 "C1" H 1125 7130 50  0000 L CNN
 F 1 "100n" H 1125 6930 50  0000 L CNN
-F 2 "" H 1138 6880 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1138 6880 50  0001 C CNN
 F 3 "" H 1100 7030 50  0001 C CNN
 	1    1100 7030
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR04
+L power:VCC #PWR04
 U 1 1 5B6CDB9B
 P 1650 6695
 F 0 "#PWR04" H 1650 6545 50  0001 C CNN
@@ -200,7 +169,7 @@ F 3 "" H 1650 6695 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5B6CDBD8
 P 1650 7350
 F 0 "#PWR05" H 1650 7100 50  0001 C CNN
@@ -211,29 +180,29 @@ F 3 "" H 1650 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Device:C C2
 U 1 1 5B6CDC15
 P 1650 7035
 F 0 "C2" H 1675 7135 50  0000 L CNN
 F 1 "100n" H 1675 6935 50  0000 L CNN
-F 2 "" H 1688 6885 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 1688 6885 50  0001 C CNN
 F 3 "" H 1650 7035 50  0001 C CNN
 	1    1650 7035
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L Device:C C3
 U 1 1 5B6CDD14
 P 2155 7035
 F 0 "C3" H 2180 7135 50  0000 L CNN
 F 1 "100n" H 2180 6935 50  0000 L CNN
-F 2 "" H 2193 6885 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 2193 6885 50  0001 C CNN
 F 3 "" H 2155 7035 50  0001 C CNN
 	1    2155 7035
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5B6CE4B9
 P 7215 4840
 F 0 "#PWR06" H 7215 4590 50  0001 C CNN
@@ -244,7 +213,7 @@ F 3 "" H 7215 4840 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR07
+L power:VCC #PWR07
 U 1 1 5B6CE695
 P 7110 2490
 F 0 "#PWR07" H 7110 2340 50  0001 C CNN
@@ -254,11 +223,8 @@ F 3 "" H 7110 2490 50  0001 C CNN
 	1    7110 2490
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3650 5195
-NoConn ~ 3645 3635
-NoConn ~ 7360 4390
 $Comp
-L VCC #PWR08
+L power:VCC #PWR08
 U 1 1 5B6CFEA3
 P 10420 815
 F 0 "#PWR08" H 10420 665 50  0001 C CNN
@@ -269,7 +235,7 @@ F 3 "" H 10420 815 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5B6CFF62
 P 10830 905
 F 0 "#PWR09" H 10830 655 50  0001 C CNN
@@ -280,7 +246,7 @@ F 3 "" H 10830 905 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG010
+L power:PWR_FLAG #FLG010
 U 1 1 5B6CFFE7
 P 10830 815
 F 0 "#FLG010" H 10830 890 50  0001 C CNN
@@ -291,7 +257,7 @@ F 3 "" H 10830 815 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG011
+L power:PWR_FLAG #FLG011
 U 1 1 5B6D0041
 P 10420 910
 F 0 "#FLG011" H 10420 985 50  0001 C CNN
@@ -302,7 +268,7 @@ F 3 "" H 10420 910 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5B6D0968
 P 5750 6700
 F 0 "#PWR012" H 5750 6450 50  0001 C CNN
@@ -313,19 +279,19 @@ F 3 "" H 5750 6700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C C4
+L Device:C C4
 U 1 1 5B6D0A4F
 P 6540 6335
 F 0 "C4" H 6565 6435 50  0000 L CNN
-F 1 "10u" H 6565 6235 50  0000 L CNN
-F 2 "" H 6578 6185 50  0001 C CNN
+F 1 "10n" H 6565 6235 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 6578 6185 50  0001 C CNN
 F 3 "" H 6540 6335 50  0001 C CNN
 	1    6540 6335
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 5250 5710
 $Comp
-L VCC #PWR013
+L power:VCC #PWR013
 U 1 1 5B6D0B82
 P 5750 5210
 F 0 "#PWR013" H 5750 5060 50  0001 C CNN
@@ -336,12 +302,12 @@ F 3 "" H 5750 5210 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J99
+L OpenAmigaJoyMouseSwitcher-rescue:Conn_01x01 J99
 U 1 1 5B6D39E9
 P 10970 6250
 F 0 "J99" H 10970 6350 50  0000 C CNN
 F 1 "OSHW_LOGO" H 10970 6150 50  0000 C CNN
-F 2 "" H 10970 6250 50  0001 C CNN
+F 2 "w_logo:Logo_copper_OSHW_6x6mm" H 10970 6250 50  0001 C CNN
 F 3 "" H 10970 6250 50  0001 C CNN
 	1    10970 6250
 	0    1    1    0   
@@ -364,106 +330,51 @@ lmb
 Text Label 8185 6075 0    60   ~ 0
 rmb
 $Comp
-L R R1
-U 1 1 5B6D551C
-P 4505 1455
-F 0 "R1" V 4540 1610 50  0000 C CNN
-F 1 "10k" V 4505 1455 50  0000 C CNN
-F 2 "" V 4435 1455 50  0001 C CNN
-F 3 "" H 4505 1455 50  0001 C CNN
-	1    4505 1455
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 5B6D64F8
-P 4595 1150
-F 0 "R2" V 4630 1305 50  0000 C CNN
-F 1 "10k" V 4595 1150 50  0000 C CNN
-F 2 "" V 4525 1150 50  0001 C CNN
-F 3 "" H 4595 1150 50  0001 C CNN
-	1    4595 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3
-U 1 1 5B6D686A
-P 4680 1455
-F 0 "R3" V 4715 1610 50  0000 C CNN
-F 1 "10k" V 4680 1455 50  0000 C CNN
-F 2 "" V 4610 1455 50  0001 C CNN
-F 3 "" H 4680 1455 50  0001 C CNN
-	1    4680 1455
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 5B6D6870
-P 4770 1150
-F 0 "R4" V 4805 1305 50  0000 C CNN
-F 1 "10k" V 4770 1150 50  0000 C CNN
-F 2 "" V 4700 1150 50  0001 C CNN
-F 3 "" H 4770 1150 50  0001 C CNN
-	1    4770 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR014
-U 1 1 5B6D756A
-P 4505 805
-F 0 "#PWR014" H 4505 655 50  0001 C CNN
-F 1 "VCC" H 4505 955 50  0000 C CNN
-F 2 "" H 4505 805 50  0001 C CNN
-F 3 "" H 4505 805 50  0001 C CNN
-	1    4505 805 
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
+L Device:R R1
 U 1 1 5B6D8878
 P 4240 6250
-F 0 "R5" V 4320 6250 50  0000 C CNN
+F 0 "R1" V 4320 6250 50  0000 C CNN
 F 1 "220" V 4240 6250 50  0000 C CNN
-F 2 "" V 4170 6250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4170 6250 50  0001 C CNN
 F 3 "" H 4240 6250 50  0001 C CNN
 	1    4240 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L Device:LED L2
 U 1 1 5B6D8F49
 P 4530 5800
-F 0 "D2" H 4530 5900 50  0000 C CNN
+F 0 "L2" H 4530 5900 50  0000 C CNN
 F 1 "LED" H 4530 5700 50  0000 C CNN
-F 2 "" H 4530 5800 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4530 5800 50  0001 C CNN
 F 3 "" H 4530 5800 50  0001 C CNN
 	1    4530 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D1
+L Device:LED L1
 U 1 1 5B6D91E2
 P 4240 5800
-F 0 "D1" H 4240 5900 50  0000 C CNN
+F 0 "L1" H 4240 5900 50  0000 C CNN
 F 1 "LED" H 4240 5700 50  0000 C CNN
-F 2 "" H 4240 5800 50  0001 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4240 5800 50  0001 C CNN
 F 3 "" H 4240 5800 50  0001 C CNN
 	1    4240 5800
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R6
+L Device:R R2
 U 1 1 5B6D94D6
 P 4530 6250
-F 0 "R6" V 4610 6250 50  0000 C CNN
+F 0 "R2" V 4610 6250 50  0000 C CNN
 F 1 "220" V 4530 6250 50  0000 C CNN
-F 2 "" V 4460 6250 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4460 6250 50  0001 C CNN
 F 3 "" H 4530 6250 50  0001 C CNN
 	1    4530 6250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5B6D982D
 P 4530 6700
 F 0 "#PWR015" H 4530 6450 50  0001 C CNN
@@ -474,28 +385,22 @@ F 3 "" H 4530 6700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3865 2490 3865 4695
+	2155 4895 3795 4895
 Wire Wire Line
-	3650 4895 3795 4895
+	3795 3335 3795 4895
 Wire Wire Line
-	3795 3335 3795 5625
-Wire Wire Line
-	3645 3335 3795 3335
+	2155 3335 3795 3335
 Connection ~ 3795 4895
-Wire Wire Line
-	3645 2835 4575 2835
 Wire Wire Line
 	4575 2835 4575 3540
 Wire Wire Line
 	4575 3540 5045 3540
 Wire Wire Line
-	3650 4395 4070 4395
+	2155 4395 2250 4395
 Wire Wire Line
 	4070 4395 4070 3640
 Wire Wire Line
 	4070 3640 5045 3640
-Wire Wire Line
-	3645 3035 4505 3035
 Wire Wire Line
 	4505 3035 4505 3790
 Wire Wire Line
@@ -505,9 +410,7 @@ Wire Wire Line
 Wire Wire Line
 	4505 3890 4505 4595
 Wire Wire Line
-	4505 4595 3650 4595
-Wire Wire Line
-	3645 3235 4425 3235
+	4505 4595 2350 4595
 Wire Wire Line
 	4425 3235 4425 4040
 Wire Wire Line
@@ -515,15 +418,13 @@ Wire Wire Line
 Wire Wire Line
 	5045 4140 4425 4140
 Wire Wire Line
-	4425 4140 4425 4790
+	4425 4140 4425 4795
 Wire Wire Line
-	4425 4790 3650 4795
+	4425 4795 2450 4795
 Wire Wire Line
 	5045 4640 4935 4640
 Wire Wire Line
 	4935 4640 4935 4840
-Wire Wire Line
-	3645 3435 4335 3435
 Wire Wire Line
 	4335 3435 4335 4290
 Wire Wire Line
@@ -533,24 +434,24 @@ Wire Wire Line
 Wire Wire Line
 	4335 4390 4335 4995
 Wire Wire Line
-	4335 4995 3650 4995
+	4335 4995 2550 4995
 Wire Wire Line
 	1100 6880 1100 6780
 Wire Wire Line
-	1100 6780 2155 6780
+	1100 6780 1650 6780
 Wire Wire Line
 	2155 6780 2155 6885
 Wire Wire Line
-	1650 6695 1650 6885
+	1650 6695 1650 6780
 Connection ~ 1650 6780
 Wire Wire Line
 	1100 7180 1100 7285
 Wire Wire Line
-	1100 7285 2155 7285
+	1100 7285 1650 7285
 Wire Wire Line
 	2155 7285 2155 7185
 Wire Wire Line
-	1650 7185 1650 7350
+	1650 7185 1650 7285
 Connection ~ 1650 7285
 Wire Wire Line
 	7360 3590 6545 3590
@@ -573,23 +474,17 @@ Wire Wire Line
 Wire Wire Line
 	6680 4340 6545 4340
 Wire Wire Line
-	7360 4090 7215 4090
-Wire Wire Line
 	7215 4090 7215 4840
 Wire Wire Line
 	7110 2490 7110 3890
 Wire Wire Line
-	4505 2935 3645 2935
-Wire Wire Line
-	4505 1605 4505 2935
-Wire Wire Line
 	4505 2015 5140 2015
 Wire Wire Line
-	3650 4495 4255 4495
+	2155 4495 2905 4495
 Wire Wire Line
 	4255 4495 4255 2215
 Wire Wire Line
-	4255 2215 5140 2215
+	4255 2215 4680 2215
 Wire Wire Line
 	6340 2115 7000 2115
 Wire Wire Line
@@ -597,42 +492,36 @@ Wire Wire Line
 Wire Wire Line
 	7000 3690 7360 3690
 Wire Wire Line
-	3645 3535 4070 3535
-Wire Wire Line
 	4070 3535 4070 2515
 Wire Wire Line
-	4070 2515 5140 2515
+	4070 2515 4595 2515
 Wire Wire Line
-	3650 5095 4145 5095
+	2155 5095 3005 5095
 Wire Wire Line
 	4145 5095 4145 2715
 Wire Wire Line
-	4145 2715 5140 2715
+	4145 2715 4770 2715
 Wire Wire Line
 	6340 2615 6905 2615
 Wire Wire Line
 	6905 2615 6905 4290
 Wire Wire Line
-	6905 4290 7360 4290
-Wire Wire Line
-	3645 3135 3865 3135
+	2155 3135 3865 3135
 Connection ~ 3865 3135
 Wire Wire Line
-	3865 4695 3650 4695
-Wire Wire Line
-	7110 3890 7360 3890
+	3865 4695 2155 4695
 Wire Wire Line
 	10420 815  10420 910 
 Wire Wire Line
 	10830 815  10830 905 
 Wire Wire Line
-	5750 6110 5750 6700
+	5750 6110 5750 6640
 Wire Wire Line
 	5750 5210 5750 5310
 Wire Wire Line
 	6540 6640 6540 6485
 Wire Wire Line
-	5030 6640 6540 6640
+	5030 6640 5750 6640
 Connection ~ 5750 6640
 Wire Wire Line
 	6250 5710 6540 5710
@@ -643,7 +532,7 @@ Wire Wire Line
 Wire Wire Line
 	4770 4540 4770 5510
 Wire Wire Line
-	4240 5510 5250 5510
+	4240 5510 4530 5510
 Wire Wire Line
 	5250 5910 5030 5910
 Wire Wire Line
@@ -668,16 +557,10 @@ Wire Wire Line
 	8855 5875 8005 5875
 Connection ~ 4505 2015
 Wire Wire Line
-	4595 1300 4595 2515
-Wire Wire Line
-	4595 1835 8935 1835
-Wire Wire Line
 	8935 1835 8935 6075
 Wire Wire Line
 	8935 6075 8005 6075
 Connection ~ 4595 2515
-Wire Wire Line
-	4680 1605 4680 2940
 Wire Wire Line
 	4680 2940 8695 2940
 Wire Wire Line
@@ -686,29 +569,12 @@ Wire Wire Line
 	8695 5345 8005 5345
 Connection ~ 4680 2215
 Wire Wire Line
-	4770 1300 4770 3040
-Wire Wire Line
 	4770 3040 8775 3040
 Wire Wire Line
 	8775 3040 8775 5545
 Wire Wire Line
 	8775 5545 8005 5545
 Connection ~ 4770 2715
-Connection ~ 4505 1745
-Connection ~ 4595 1835
-Wire Wire Line
-	4505 805  4505 1305
-Wire Wire Line
-	4505 915  4770 915 
-Wire Wire Line
-	4770 915  4770 1000
-Wire Wire Line
-	4595 1000 4595 915 
-Connection ~ 4595 915 
-Wire Wire Line
-	4680 1305 4680 915 
-Connection ~ 4680 915 
-Connection ~ 4505 915 
 Wire Wire Line
 	4530 6100 4530 5950
 Wire Wire Line
@@ -724,7 +590,7 @@ Wire Wire Line
 	4240 5510 4240 5650
 Connection ~ 4530 5510
 $Comp
-L VCC #PWR016
+L power:VCC #PWR016
 U 1 1 5B6DA705
 P 3995 6325
 F 0 "#PWR016" H 3995 6175 50  0001 C CNN
@@ -738,10 +604,402 @@ Wire Wire Line
 	3995 6325 3995 6640
 Wire Wire Line
 	3995 6640 4240 6640
-Text Notes 4080 6010 1    60   ~ 0
-Joystick
-Text Notes 4765 5965 1    60   ~ 0
-Mouse
+Text Notes 4765 5880 1    60   ~ 0
+IN2
+Text Notes 4095 5875 1    60   ~ 0
+IN1
 Text Notes 5860 5245 0    60   ~ 0
 555 Bistable\nMode
+Wire Wire Line
+	3795 4895 3795 5625
+Wire Wire Line
+	1650 6780 2155 6780
+Wire Wire Line
+	1650 6780 1650 6885
+Wire Wire Line
+	1650 7285 2155 7285
+Wire Wire Line
+	1650 7285 1650 7350
+Wire Wire Line
+	3865 3135 3865 4695
+Wire Wire Line
+	5750 6640 5750 6700
+Wire Wire Line
+	5750 6640 6540 6640
+Wire Wire Line
+	4505 2015 4505 2935
+Wire Wire Line
+	4595 2515 5140 2515
+Wire Wire Line
+	4680 2215 5140 2215
+Wire Wire Line
+	4680 2215 4680 2940
+Wire Wire Line
+	4770 2715 5140 2715
+Wire Wire Line
+	4770 2715 4770 3040
+Wire Wire Line
+	4505 1745 4505 2015
+Wire Wire Line
+	4595 1835 4595 2515
+Wire Wire Line
+	4770 5510 5250 5510
+Wire Wire Line
+	4530 5510 4770 5510
+$Comp
+L Device:D D1
+U 1 1 5B75BA2A
+P 7510 3590
+F 0 "D1" H 7400 3630 50  0000 C CNN
+F 1 "1n4148" H 7710 3630 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7510 3590 50  0001 C CNN
+F 3 "~" H 7510 3590 50  0001 C CNN
+	1    7510 3590
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5B75BAFA
+P 7510 3990
+F 0 "D3" H 7400 4030 50  0000 C CNN
+F 1 "1n4148" H 7700 4030 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7510 3990 50  0001 C CNN
+F 3 "~" H 7510 3990 50  0001 C CNN
+	1    7510 3990
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5B75BBCF
+P 7510 3790
+F 0 "D2" H 7400 3830 50  0000 C CNN
+F 1 "1n4148" H 7710 3830 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7510 3790 50  0001 C CNN
+F 3 "~" H 7510 3790 50  0001 C CNN
+	1    7510 3790
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5B75BCDD
+P 7510 4190
+F 0 "D4" H 7400 4230 50  0000 C CNN
+F 1 "1n4148" H 7710 4230 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7510 4190 50  0001 C CNN
+F 3 "~" H 7510 4190 50  0001 C CNN
+	1    7510 4190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7660 3590 7810 3590
+Wire Wire Line
+	7660 3790 7810 3790
+Wire Wire Line
+	7110 3890 7810 3890
+Wire Wire Line
+	7215 4090 7810 4090
+Wire Wire Line
+	7660 3990 7810 3990
+Wire Wire Line
+	7660 4190 7810 4190
+$Comp
+L Device:D D5
+U 1 1 5B7873A1
+P 7510 3690
+F 0 "D5" H 7400 3730 50  0000 C CNN
+F 1 "1n4148" H 7710 3730 50  0001 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7510 3690 50  0001 C CNN
+F 3 "~" H 7510 3690 50  0001 C CNN
+	1    7510 3690
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7660 3690 7810 3690
+Wire Wire Line
+	6905 4290 7810 4290
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 5B792A13
+P 9450 4820
+F 0 "J5" H 9465 4825 50  0000 L CNN
+F 1 "JMP_BTN2" H 9345 4650 50  0000 C CNN
+F 2 "OpenAmigaJoyMouseSwitcher:Pin_Header_Straight_1x03-ModSilkS" H 9450 4820 50  0001 C CNN
+F 3 "~" H 9450 4820 50  0001 C CNN
+	1    9450 4820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7810 4390 7620 4390
+Wire Wire Line
+	9250 4820 7620 4820
+Wire Wire Line
+	7620 4390 7620 4820
+Wire Wire Line
+	2155 5195 3305 5195
+Wire Wire Line
+	3675 7120 6775 7120
+Wire Wire Line
+	6775 7120 6775 6250
+Wire Wire Line
+	6775 6250 9010 6250
+Wire Wire Line
+	9010 6250 9010 4920
+Wire Wire Line
+	9010 4920 9250 4920
+Wire Wire Line
+	9250 4720 9010 4720
+Wire Wire Line
+	9010 4720 9010 1650
+Wire Wire Line
+	3675 5195 3675 7120
+Wire Wire Line
+	2155 3635 2905 3635
+Wire Wire Line
+	3675 3635 3675 1650
+Wire Wire Line
+	3675 1650 9010 1650
+$Comp
+L Device:R_Network04_US RN1
+U 1 1 5B850392
+P 2450 2475
+F 0 "RN1" H 2290 2720 50  0000 L CNN
+F 1 "10k" H 2290 2645 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 2725 2475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2450 2475 50  0001 C CNN
+	1    2450 2475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2675 2250 2835
+Wire Wire Line
+	2350 2675 2350 3035
+Wire Wire Line
+	2450 2675 2450 3235
+Wire Wire Line
+	2550 2675 2550 3435
+$Comp
+L Device:R_Network04_US RN2
+U 1 1 5B881211
+P 3105 2470
+F 0 "RN2" H 2950 2710 50  0000 L CNN
+F 1 "10k" H 2950 2640 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 3380 2470 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3105 2470 50  0001 C CNN
+	1    3105 2470
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2905 2670 2905 2935
+Wire Wire Line
+	3005 2670 3005 3535
+NoConn ~ 3205 2670
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5B8A13A7
+P 2050 1990
+F 0 "J1" H 1980 1835 50  0000 R CNN
+F 1 "JMP_C1_DIRS" H 2575 1940 50  0000 R CNN
+F 2 "OpenAmigaJoyMouseSwitcher:Pin_Header_Straight_1x02-ModSilkS" H 2050 1990 50  0001 C CNN
+F 3 "~" H 2050 1990 50  0001 C CNN
+	1    2050 1990
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2090 2250 2275
+Wire Wire Line
+	2250 1990 2250 1905
+Wire Wire Line
+	2250 1905 2905 1905
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 5B8C2717
+P 2705 1990
+F 0 "J2" H 2625 1830 50  0000 R CNN
+F 1 "JMP_C1_BTNS" H 2495 1945 50  0000 R CNN
+F 2 "OpenAmigaJoyMouseSwitcher:Pin_Header_Straight_1x02-ModSilkS" H 2705 1990 50  0001 C CNN
+F 3 "~" H 2705 1990 50  0001 C CNN
+	1    2705 1990
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2905 2090 2905 2270
+Wire Wire Line
+	2905 1990 2905 1905
+Connection ~ 2905 1905
+Wire Wire Line
+	2905 1905 3865 1905
+$Comp
+L Device:Jumper_NC_Small J6
+U 1 1 5B8E4E86
+P 3005 3725
+F 0 "J6" H 2835 3725 50  0000 C CNN
+F 1 "JMP_C1_BTN3_PLUP" H 3005 3650 50  0000 C CNN
+F 2 "OpenAmigaJoyMouseSwitcher:SolderJumper-2_P1.3mm_Bridged_RoundedPad-Thin" H 3005 3725 50  0001 C CNN
+F 3 "~" H 3005 3725 50  0001 C CNN
+	1    3005 3725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3105 2670 3105 3725
+Wire Wire Line
+	2905 3725 2905 3635
+Connection ~ 2905 3635
+Wire Wire Line
+	2905 3635 3675 3635
+Connection ~ 3005 3535
+Connection ~ 2905 2935
+Connection ~ 2550 3435
+Connection ~ 2450 3235
+Connection ~ 2350 3035
+Connection ~ 2250 2835
+Wire Wire Line
+	3005 3535 4070 3535
+Wire Wire Line
+	2155 3535 3005 3535
+Wire Wire Line
+	2905 2935 2155 2935
+Wire Wire Line
+	4505 2935 2905 2935
+Wire Wire Line
+	2550 3435 4335 3435
+Wire Wire Line
+	2155 3435 2550 3435
+Wire Wire Line
+	2450 3235 4425 3235
+Wire Wire Line
+	2155 3235 2450 3235
+Wire Wire Line
+	2350 3035 4505 3035
+Wire Wire Line
+	2155 3035 2350 3035
+Wire Wire Line
+	2250 2835 4575 2835
+Wire Wire Line
+	2155 2835 2250 2835
+Wire Wire Line
+	3865 1390 3865 1905
+Wire Wire Line
+	3865 1905 3865 3135
+Connection ~ 3865 1905
+$Comp
+L Device:R_Network04_US RN3
+U 1 1 5B773E55
+P 2450 5630
+F 0 "RN3" H 2290 5875 50  0000 L CNN
+F 1 "10k" H 2290 5800 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 2725 5630 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 2450 5630 50  0001 C CNN
+	1    2450 5630
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Network04_US RN4
+U 1 1 5B773E5B
+P 3105 5635
+F 0 "RN4" H 2950 5875 50  0000 L CNN
+F 1 "10k" H 2950 5805 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP5" V 3380 5635 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 3105 5635 50  0001 C CNN
+	1    3105 5635
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J3
+U 1 1 5B773E61
+P 2050 6115
+F 0 "J3" H 1965 6170 50  0000 R CNN
+F 1 "JMP_C2_DIRS" H 2575 6065 50  0000 R CNN
+F 2 "OpenAmigaJoyMouseSwitcher:Pin_Header_Straight_1x02-ModSilkS" H 2050 6115 50  0001 C CNN
+F 3 "~" H 2050 6115 50  0001 C CNN
+	1    2050 6115
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 6015 2250 5830
+Wire Wire Line
+	2250 6115 2250 6200
+Wire Wire Line
+	2250 6200 2905 6200
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 5B773E6A
+P 2705 6115
+F 0 "J4" H 2610 6160 50  0000 R CNN
+F 1 "JMP_C2_BTNS" H 2495 6070 50  0000 R CNN
+F 2 "OpenAmigaJoyMouseSwitcher:Pin_Header_Straight_1x02-ModSilkS" H 2705 6115 50  0001 C CNN
+F 3 "~" H 2705 6115 50  0001 C CNN
+	1    2705 6115
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2905 6015 2905 5835
+Wire Wire Line
+	2905 6115 2905 6200
+Wire Wire Line
+	2250 5430 2250 4395
+Connection ~ 2250 4395
+Wire Wire Line
+	2250 4395 4070 4395
+Wire Wire Line
+	2350 5430 2350 4595
+Connection ~ 2350 4595
+Wire Wire Line
+	2350 4595 2155 4595
+Wire Wire Line
+	2450 5430 2450 4795
+Connection ~ 2450 4795
+Wire Wire Line
+	2450 4795 2155 4795
+Wire Wire Line
+	2550 5430 2550 4995
+Connection ~ 2550 4995
+Wire Wire Line
+	2550 4995 2155 4995
+Wire Wire Line
+	2905 5435 2905 4495
+Connection ~ 2905 4495
+Wire Wire Line
+	2905 4495 4255 4495
+Wire Wire Line
+	3005 5435 3005 5095
+Connection ~ 3005 5095
+Wire Wire Line
+	3005 5095 4145 5095
+NoConn ~ 3205 5435
+$Comp
+L power:VCC #PWR010
+U 1 1 5B846DA6
+P 3540 5750
+F 0 "#PWR010" H 3540 5600 50  0001 C CNN
+F 1 "VCC" H 3540 5900 50  0000 C CNN
+F 2 "" H 3540 5750 50  0001 C CNN
+F 3 "" H 3540 5750 50  0001 C CNN
+	1    3540 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3540 5750 3540 6200
+Wire Wire Line
+	3540 6200 2905 6200
+Connection ~ 2905 6200
+$Comp
+L Device:Jumper_NC_Small J7
+U 1 1 5B852FB4
+P 3205 5265
+F 0 "J7" H 3375 5265 50  0000 C CNN
+F 1 "JMP_C2_BTN3_PLUP" H 3370 5195 50  0000 C CNN
+F 2 "OpenAmigaJoyMouseSwitcher:SolderJumper-2_P1.3mm_Bridged_RoundedPad-Thin" H 3205 5265 50  0001 C CNN
+F 3 "~" H 3205 5265 50  0001 C CNN
+	1    3205 5265
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3105 5435 3105 5265
+Wire Wire Line
+	3305 5265 3305 5195
+Connection ~ 3305 5195
+Wire Wire Line
+	3305 5195 3675 5195
+Wire Wire Line
+	4595 1835 8935 1835
 $EndSCHEMATC
