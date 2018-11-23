@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmigaJoyMouseSwitcher"
-Date "2018-09-18"
+Date "2018-11-23"
 Rev "1"
 Comp "SukkoPera"
 Comment1 ""
