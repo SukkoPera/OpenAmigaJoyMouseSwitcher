@@ -4,13 +4,15 @@ OpenAmigaJoyMouseSwitcher is an Open Hardware adapter for Amiga computers that a
 ![Board](https://raw.githubusercontent.com/SukkoPera/OpenAmigaJoyMouseSwitcher/master/doc/render-top.png)
 
 ### Summary
-Amiga computers usually have two joystick ports. Normally, a mouse is connected to port 1, while Player 1's joystick is in port 2. Whenever a second joystick is needed, the mouse must be disconnected and Player 2's joystick connected in its place. This can be tedious, since for instance the ports are on the back of the computer on A500 models, and thus not easily accessible. It is also dangerous, since while trying to connect a mouse/joystick blindly the power and ground pins might get shorted by the connector's metal shielding, blowing a resistor (or worse an 8520 CIA chip!) inside your beloved Amiga.
+Amiga computers usually have two joystick ports. Normally, a mouse is connected to port 1, while Player 1's joystick is in port 2. Whenever a second joystick is needed, the mouse must be disconnected and Player 2's joystick connected in its place. When you finish playing and get back to Workbench, you have to unplug the joystick and plug the mouse back in. This can be tedious, since for instance the ports are on the back of the computer on A500 models, and thus not easily accessible. It is also dangerous, since while trying to connect a mouse/joystick blindly the power and ground pins might get shorted by the connector's metal shielding, blowing a resistor (or worse an 8520 CIA chip!) inside your beloved Amiga.
 
 OpenAmigaJoyMouseSwitcher is an Open Hardware device that allows you to keep both your mouse and joystick connected at the same time. Whenever you want to switch to the other device, just press a button on it (either the left or right buttons on the mouse, or button 1 or 2 on the joystick).
 
 Actually, none of the two peripherals needs to be a mouse! So you can also use it in port 2 to switch between a joystick and a joypad, for instance.
 
-Finally, OpenAmigaJoyMouseSwitcher is safe to use with Sega MegaDrive/Genesis control pads, which an be problematic on Amiga computers.
+OpenAmigaJoyMouseSwitcher is safe to use with Sega MegaDrive/Genesis control pads, which can be problematic on Amiga computers.
+
+Finally, OpenAmigaJoyMouseSwitcher *MIGHT* also be compatible with Commodore 64 computers, but **this HAS NOT BEEN TESTED**.
 
 ### Assembly
 Solder all components to the board. No particular order is recommended, but starting with the smaller components might be a good idea.
