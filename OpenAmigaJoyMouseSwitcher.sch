@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmigaJoyMouseSwitcher"
-Date "2018-11-23"
+Date "2018-11-29"
 Rev "1"
 Comp "SukkoPera"
 Comment1 ""
@@ -1101,19 +1101,6 @@ Wire Notes Line
 	3300 7630 2555 7630
 Wire Notes Line
 	2555 7630 2555 6455
-$Comp
-L Device:D D6
-U 1 1 5BA259A5
-P 7320 4290
-F 0 "D6" H 7210 4330 50  0000 C CNN
-F 1 "1n4148" H 7520 4330 50  0001 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7320 4290 50  0001 C CNN
-F 3 "~" H 7320 4290 50  0001 C CNN
-	1    7320 4290
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	6905 4290 7170 4290
-Wire Wire Line
-	7470 4290 7810 4290
+	6905 4290 7810 4290
 $EndSCHEMATC
