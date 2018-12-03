@@ -12,7 +12,9 @@ Actually, none of the two peripherals needs to be a mouse! So you can also use i
 
 OpenAmigaJoyMouseSwitcher is safe to use with Sega MegaDrive/Genesis control pads, which can be problematic on Amiga computers.
 
-Finally, OpenAmigaJoyMouseSwitcher *MIGHT* also be compatible with Commodore 64 computers, but **this HAS NOT BEEN TESTED**.
+Finally, OpenAmigaJoyMouseSwitcher **MIGHT** also be compatible with Commodore 64 and Atari ST computers, but **this HAS NOT BEEN TESTED**.
+
+It is definitely **NOT COMPATIBLE** with Sega Master System, MegaDrive/Genesis consoles, nor with MSX computers, despite the similarity of the connectors.
 
 ### Assembly
 Solder all components to the board. No particular order is recommended, but starting with the smaller components might be a good idea.
