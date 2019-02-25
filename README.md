@@ -33,7 +33,7 @@ It has been tested and found working fine on many different A500 and A600 mainbo
 
 On A600s you might need to use an extension cable, since the adapter might not physically fit into port 1 because of the case shape.
 
-Even though it hasn't been tested yet on "Big Box" Amigas (A1000/A2000/A3000/A4000), there is no reason why it should not work on any of those models, as long as it physically fits into the port (but you can always use an extension cable).
+Even though it hasn't been tested on "Big Box" Amigas (A1000/A2000/A3000/A4000) yet, there is no reason why it should not work on any of those models, as long as it physically fits into the port (but you can always use an extension cable).
 
 **DO NOT USE ON CD32**, it will not work and might be damaged or it might damage your console.
 
