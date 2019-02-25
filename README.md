@@ -33,9 +33,11 @@ Finally, note that the two ports are almost fully equivalent: the only differenc
 ### Compatibility
 OpenAmigaJoyMouseSwitcher should work on all Amiga models.
 
-It has been tested and found working fine on A1200s revisions 1.D4 and 2B, where other adapters sometimes have issues with right mouse button clicks/joystick button 2 presses that are not detected.
+It has been tested and found working fine on many different A500 and A600 mainboard revisions. It also works fine on A1200s revisions 1.D4 and 2B, where other adapters sometimes have issues with right mouse button clicks/joystick button 2 presses that are not detected.
 
 On A600s you might need to use an extender cable, since the adapter might not physically fit into port 1 because of the case shape.
+
+**DO NOT USE ON CD32**, it will not work and might be damaged or it might damage your console.
 
 ### License
 The OpenAmigaJoyMouseSwitcher documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
