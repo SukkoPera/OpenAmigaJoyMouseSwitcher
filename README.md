@@ -8,13 +8,7 @@ Amiga computers usually have two joystick ports. Normally, a mouse is connected 
 
 OpenAmigaJoyMouseSwitcher is an Open Hardware device that allows you to keep both your mouse and joystick connected at the same time. Whenever you want to switch to the other device, just press a button on it (either the left or right buttons on the mouse, or button 1 or 2 on the joystick).
 
-Actually, none of the two peripherals needs to be a mouse! So you can also use it in port 2 to switch between a joystick and a joypad, for instance.
-
-OpenAmigaJoyMouseSwitcher is safe to use with Sega MegaDrive/Genesis control pads, which can be problematic on Amiga computers.
-
-Finally, OpenAmigaJoyMouseSwitcher **MIGHT** also be compatible with Commodore 64 and Atari ST computers, but **this HAS NOT BEEN TESTED**.
-
-It is definitely **NOT COMPATIBLE** with Sega Master System and MegaDrive/Genesis consoles, nor with MSX computers, despite the similarity of the connectors.
+Actually, none of the two peripherals strictly needs to be a mouse! So you can also use it in port 2 to switch between a joystick and a joypad, for instance.
 
 ### Assembly
 Solder all components to the board. No particular order is recommended, but starting with the smaller components might be a good idea.
@@ -31,11 +25,29 @@ Button 3 (if any) is not switched automatically but rather manually through J5. 
 Finally, note that the two ports are almost fully equivalent: the only difference is that the left port gets selected by default at power on.
 
 ### Compatibility
-OpenAmigaJoyMouseSwitcher should work on all Amiga models.
 
-It has been tested and found working fine on A1200s revisions 1.D4 and 2B, where other adapters sometimes have issues with right mouse button clicks/joystick button 2 presses that are not detected.
+#### Computer Side
+OpenAmigaJoyMouseSwitcher was designed to work on all Amiga models.
 
-On A600s you might need to use an extender cable, since the adapter might not physically fit into port 1 because of the case shape.
+It has been tested and found working fine on many different A500 and A600 mainboard revisions. It also works fine on A1200s revisions 1.D4 and 2B, where other adapters sometimes have issues with right mouse button clicks/joystick button 2 presses that are not detected.
+
+On A600s you might need to use an extension cable, since the adapter might not physically fit into port 1 because of the case shape.
+
+Even though it hasn't been tested on "Big Box" Amigas (A1000/A2000/A3000/A4000) yet, there is no reason why it should not work on any of those models, as long as it physically fits into the port (but you can always use an extension cable).
+
+**DO NOT USE ON CD32**, it will not work and might be damaged or it might damage your console.
+
+Finally, OpenAmigaJoyMouseSwitcher **MIGHT** also be compatible with Commodore 64 and Atari ST computers, but **this HAS NOT BEEN TESTED**.
+
+It is definitely **NOT COMPATIBLE** with Sega Master System and MegaDrive/Genesis consoles, nor with MSX computers, despite the similarity of the connectors.
+
+#### Device Side
+OpenAmigaJoyMouseSwitcher should work with all Atari-style joysticks/controllers and mice that normally work with Amiga computers.
+
+It is also safe to use with Sega MegaDrive/Genesis control pads, which can be problematic on Amiga computers.
+
+#### Power consumption
+OpenAmigaJoyMouseSwitcher should only consume about 10 mA. This is not usually a cause of concern, but it might need to be taken in consideration if using a power-hungry joystick or mouse, as you should never draw more than 50 mA from the joystick port.
 
 ### License
 The OpenAmigaJoyMouseSwitcher documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
