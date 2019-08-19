@@ -35,7 +35,7 @@ On A600s you might need to use an extension cable, since the adapter might not p
 
 Even though it hasn't been tested on "Big Box" Amigas (A1000/A2000/A3000/A4000) yet, there is no reason why it should not work on any of those models, as long as it physically fits into the port (but you can always use an extension cable).
 
-**DO NOT USE ON CD32**, it will not work and might be damaged or it might damage your console.
+**DO NOT USE ON CD32**, it will not work and might be damaged or it might damage your console. Do not either use on Amigas with games that support the CD32 controller.
 
 Finally, OpenAmigaJoyMouseSwitcher **MIGHT** also be compatible with Commodore 64 and Atari ST computers, but **this HAS NOT BEEN TESTED**.
 
