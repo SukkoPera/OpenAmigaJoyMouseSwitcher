@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:OpenAmigaJoyMouseSwitcher-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OpenAmigaJoyMouseSwitcher"
-Date "2018-11-29"
-Rev "1"
+Date "2020-12-29"
+Rev "2"
 Comp "SukkoPera"
 Comment1 "Licensed under CERN OHL v.1.2"
 Comment2 ""
@@ -79,39 +78,6 @@ F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7405 5975 50  0001 C CNN
 F 3 "" H 7405 5975 50  0001 C CNN
 	4    7405 5975
 	-1   0    0    -1  
-$EndComp
-$Comp
-L OpenAmigaJoyMouseSwitcher-rescue:DB9_Male CNY1
-U 1 1 5B6CBE81
-P 1855 3235
-F 0 "CNY1" H 1855 3785 50  0000 C CNN
-F 1 "DB9_IN_1" H 1855 2660 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_9M" H 1855 3235 50  0001 C CNN
-F 3 "" H 1855 3235 50  0001 C CNN
-	1    1855 3235
-	-1   0    0    1   
-$EndComp
-$Comp
-L OpenAmigaJoyMouseSwitcher-rescue:DB9_Male CNY2
-U 1 1 5B6CBF34
-P 1855 4795
-F 0 "CNY2" H 1855 5345 50  0000 C CNN
-F 1 "DB9_IN_2" H 1855 4220 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_9M" H 1855 4795 50  0001 C CNN
-F 3 "" H 1855 4795 50  0001 C CNN
-	1    1855 4795
-	-1   0    0    1   
-$EndComp
-$Comp
-L OpenAmigaJoyMouseSwitcher-rescue:DB9_Female CNY3
-U 1 1 5B6CC037
-P 8110 3990
-F 0 "CNY3" H 8110 4540 50  0000 C CNN
-F 1 "DB9_OUT" H 8110 3415 50  0000 C CNN
-F 2 "w_conn_d-sub:DB_9F" H 8110 3990 50  0001 C CNN
-F 3 "" H 8110 3990 50  0001 C CNN
-	1    8110 3990
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR01
@@ -1103,4 +1069,84 @@ Wire Notes Line
 	2555 7630 2555 6455
 Wire Wire Line
 	6905 4290 7810 4290
+$Comp
+L Connector:DB9_Female_MountingHoles CNY3
+U 1 1 5FED1D72
+P 8110 3990
+F 0 "CNY3" H 8290 3992 50  0000 L CNN
+F 1 "DB9_OUT" H 8290 3901 50  0000 L CNN
+F 2 "OpenAmigaJoyMouseSwitcher:DB_9F" H 8110 3990 50  0001 C CNN
+F 3 " ~" H 8110 3990 50  0001 C CNN
+	1    8110 3990
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5FEE001F
+P 8110 4625
+F 0 "#PWR0104" H 8110 4375 50  0001 C CNN
+F 1 "GND" H 8110 4475 50  0000 C CNN
+F 2 "" H 8110 4625 50  0001 C CNN
+F 3 "" H 8110 4625 50  0001 C CNN
+	1    8110 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8110 4625 8110 4590
+$Comp
+L Connector:DB9_Male_MountingHoles CNY1
+U 1 1 5FEED0AB
+P 1855 3235
+F 0 "CNY1" H 2035 3144 50  0000 L CNN
+F 1 "DB9_IN_1" H 2035 3235 50  0000 L CNN
+F 2 "OpenAmigaJoyMouseSwitcher:DB_9M" H 1855 3235 50  0001 C CNN
+F 3 " ~" H 1855 3235 50  0001 C CNN
+	1    1855 3235
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1855 2635 1855 2495
+Wire Wire Line
+	1855 2495 1225 2495
+Wire Wire Line
+	1225 2495 1225 3795
+$Comp
+L power:GND #PWR0105
+U 1 1 5FF0798D
+P 1225 3795
+F 0 "#PWR0105" H 1225 3545 50  0001 C CNN
+F 1 "GND" H 1225 3645 50  0000 C CNN
+F 2 "" H 1225 3795 50  0001 C CNN
+F 3 "" H 1225 3795 50  0001 C CNN
+	1    1225 3795
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Male_MountingHoles CNY2
+U 1 1 5FF1418C
+P 1855 4795
+F 0 "CNY2" H 2035 4704 50  0000 L CNN
+F 1 "DB9_IN_2" H 2035 4795 50  0000 L CNN
+F 2 "OpenAmigaJoyMouseSwitcher:DB_9M" H 1855 4795 50  0001 C CNN
+F 3 " ~" H 1855 4795 50  0001 C CNN
+	1    1855 4795
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1855 4195 1855 4055
+Wire Wire Line
+	1855 4055 1225 4055
+Wire Wire Line
+	1225 4055 1225 5355
+$Comp
+L power:GND #PWR0106
+U 1 1 5FF14771
+P 1225 5355
+F 0 "#PWR0106" H 1225 5105 50  0001 C CNN
+F 1 "GND" H 1225 5205 50  0000 C CNN
+F 2 "" H 1225 5355 50  0001 C CNN
+F 3 "" H 1225 5355 50  0001 C CNN
+	1    1225 5355
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
