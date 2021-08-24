@@ -260,6 +260,22 @@ X R4 5 100 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # OpenAmigaJoyMouseSwitcher-rescue_74LS08
 #
 DEF OpenAmigaJoyMouseSwitcher-rescue_74LS08 U 0 30 Y Y 4 F N
@@ -358,20 +374,6 @@ X DIS 7 500 0 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# conn_CONN_1
-#
-DEF conn_CONN_1 P 0 30 N N 1 F N
-F0 "P" 80 0 40 H V C CNN
-F1 "conn_CONN_1" -50 40 30 H I C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-C 0 0 31 0 1 0 N
-P 2 0 1 0 -30 0 -50 0 N
-X 1 1 -150 0 100 R 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
@@ -410,6 +412,19 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X VCC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# void_Void
+#
+DEF void_Void V 0 0 N N 1 F N
+F0 "V" 0 -100 50 H V C CNN
+F1 "void_Void" 0 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 50 0 1 0 N
+P 2 0 1 0 -50 50 50 -50 N
 ENDDRAW
 ENDDEF
 #
