@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name void)(type Legacy)(uri ${KIPRJMOD}/lib/void.lib)(options "")(descr ""))
-  (lib (name OpenAmigaJoyMouseSwitcher-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenAmigaJoyMouseSwitcher-rescue.lib)(options "")(descr ""))
 )
