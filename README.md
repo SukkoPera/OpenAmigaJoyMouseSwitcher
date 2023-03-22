@@ -49,6 +49,11 @@ It is also safe to use with Sega MegaDrive/Genesis control pads, which can be pr
 #### Power consumption
 OpenAmigaJoyMouseSwitcher should only consume about 10 mA. This is not usually a cause of concern, but it might need to be taken in consideration if using a power-hungry joystick or mouse, as you should never draw more than 50 mA from the joystick port.
 
+### Enclosure
+One 3D-printable enclosure is currently available for this board:
+
+- Kindly contribution by Youen Chéné available in [enclosure](./enclosure) folder. It needs 2 screws for assembly.
+
 ### License
 The OpenAmigaJoyMouseSwitcher documentation, including the design itself, is copyright &copy; SukkoPera 2018-2019.
 
